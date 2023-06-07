@@ -9,4 +9,9 @@ down:
 	
 build:
 	docker-compose build
-	docker-compose up -d 
+	docker-compose up -d
+
+main:
+	gcc -o main main.c
+	./main
+	rm -f ./main
