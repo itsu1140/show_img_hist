@@ -4,3 +4,5 @@ patch:
 diff:
 	docker compose exec myubuntu diff main.c main2.c
 
+down:
+	docker compose down
