@@ -6,3 +6,9 @@ services:
     volumes:
       - ./:/mnt
     tty: true
+    
+  myubuntu:
+    build: ./
+    volumes:
+      - nitech/sw_engineering/c
+    tty: true
