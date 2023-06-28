@@ -1,0 +1,6 @@
+FROM ubuntu:20.04
+
+RUN apt -y update && \
+    apt -y install g++ gdb clang
+
+WORKDIR /mnt
