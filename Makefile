@@ -19,3 +19,4 @@ main:
 git:
 #	eval "$(ssh-agent -s)"
 	ssh-add ~/.ssh/nitech/id_ed25519
+	ssh -T git@github.com
