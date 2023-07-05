@@ -1,3 +1,4 @@
 main.c.diff
 .vscode
 __pycache__/
+.coverage

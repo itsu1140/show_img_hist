@@ -4,5 +4,5 @@ services:
   mypython:
     build: ./
     volumes:
-      - ./:/nitech/sw_engineering
+      - ./:/mnt
     tty: true

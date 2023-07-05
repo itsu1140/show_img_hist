@@ -11,5 +11,9 @@ class TestList(unittest.TestCase):
         val = makeList(-1)
         self.assertEqual([-1, 0, 1], val)
 
+    def test_list3(self):
+        val = makeList(3.5)
+        self.assertEqual([3.5, 4.5, 5.5], val)
+
 if __name__ == '__main__':
     unittest.main()

@@ -17,5 +17,5 @@ main:
 	rm -f ./main
 
 git:
-	eval "$(ssh-agent -s)"
+#	eval "$(ssh-agent -s)"
 	ssh-add ~/.ssh/nitech/id_ed25519
